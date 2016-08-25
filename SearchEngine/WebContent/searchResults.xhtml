@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+<h:head>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Paintings Search</title>
+</h:head>
+<h:body styleClass="body">
+	<div id="headerSmall">
+		<div id="logoSmall">
+			<img alt="logoSmall" src="logosmall.png"></img>
+		</div>
+		<div id="searchSmall">
+		<h:form>
+			<p:panelGrid id="panel1" columns="2">
+				<p:inputText id="query" styleClass="searchTextResults" maxlength="600"
+					value="#{searchResultsMB.queryString}"></p:inputText>
+				<p:commandButton styleClass="button" id="Search1" value="Search" action="#{searchResultsMB.performSearch}">
+					 <p:ajax event="click" oncomplete="update1()" />
+						<p:ajax event="click" oncomplete="update2()" />
+						<p:ajax event="click" oncomplete="update3()" />
+						<p:ajax event="click" oncomplete="update4()" />
+						<p:ajax event="click" oncomplete="update5()" />
+						<p:ajax event="click" oncomplete="update6()" />
+						<p:ajax event="click" oncomplete="update7()" />
+						<p:ajax event="click" oncomplete="updateExpQuery()" />
+					</p:commandButton>
+			</p:panelGrid>
+		</h:form>
+		</div>
+	</div>
+	<div id="pageResults">
+		<h:outputText value="&lt;br/&gt;" escape="false" />
+		<h:outputText value="&lt;br/&gt;" escape="false" />
+		<h:outputText value="&lt;br/&gt;" escape="false" />
+		
+			<h3>Search Results</h3>
+			<h:form id="form2">
+			<p:tabView>
+				<p:tab title="QueryExpansion">
+
+					<p:commandButton id="displayExpandedQueries" value="Display Expanded Query"
+						type="button" />
+					<p:overlayPanel id="expandedQueriesPanel" for="displayExpandedQueries"
+						hideEffect="fade">
+						<p:panelGrid columns="2">
+						<h:outputLabel id="expanded" value="Expanded Query : "></h:outputLabel>
+						<p:remoteCommand name="updateExpQuery" update="expandedValue" />
+						<h:outputLabel id="expandedValue" value="#{searchResultsMB.expandedQuery}"></h:outputLabel>
+						</p:panelGrid>
+					</p:overlayPanel>
+					<p:remoteCommand name="update1" update="dTable1" />
+					<p:dataTable id="dTable1" var="qResult" value="#{searchResultsMB.queryExpansionResult}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+				<p:tab title="With Page Ranking">
+				<p:remoteCommand name="update2" update="dTable2" />
+				<p:dataTable id="dTable2" var="qResult" value="#{searchResultsMB.rankingResult}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					        	
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+				<p:tab title="Without Page Ranking">
+				<p:remoteCommand name="update3" update="dTable3" />
+				<p:dataTable id="dTable3" var="qResult" value="#{searchResultsMB.noRankingResult}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					        	
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+				<p:tab title="Clustering">
+				<p:remoteCommand name="update4" update="dTable4" />
+				<p:dataTable id="dTable4" var="qResult" value="#{searchResultsMB.clusteringResult}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					        	
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+				<p:tab title="Hits">
+				<p:remoteCommand name="update5" update="dTable5" />
+				<p:dataTable id="dTable5" var="qResult" value="#{searchResultsMB.hits}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					        	
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+				<p:tab title="Google Results">
+				<p:remoteCommand name="update6" update="dTable6" />
+				<p:dataTable id="dTable6" var="qResult" value="#{searchResultsMB.googleResults}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+				<p:tab title="Bing Results">
+				<p:remoteCommand name="update7" update="dTable7" />
+				<p:dataTable id="dTable7" var="qResult" value="#{searchResultsMB.bingResults}">
+					    <p:column headerText="Results">
+					        <h:outputText value="#{qResult.title}" />
+					        	<h:outputText value="&lt;br/&gt;" escape="false" />
+					        	<div id="div2"><p:link href="#{qResult.url}" value="#{qResult.url}"></p:link></div>
+					        	
+					    </p:column>
+					</p:dataTable>
+				</p:tab>
+			</p:tabView>
+			</h:form>
+		<div id="footer">&copy;2016 PaintSearch Corporation</div>
+	</div>
+</h:body>
+</html>

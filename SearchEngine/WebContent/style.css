@@ -1,0 +1,228 @@
+@CHARSET "ISO-8859-1";
+
+table {
+	border-collapse:collapse;
+	border:1px solid #FFCA5E;	
+}
+th{	
+	font-weight: bold;		
+}
+
+th,td {
+	font-size: 0.85em;	
+	font-family: Arial, Helvetica, sans-serif;	
+	padding: 5px 5px;
+	border-top: 1px solid #FFCA5E;
+	border-right: 1px solid #DDDDDD;	
+}
+
+
+body {
+	margin: 0;
+	padding: 0;	
+	background-image: url("IMG_2381.JPG");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #616161;	
+	background-size: cover;
+}
+
+table{
+	border:none;
+}
+
+#header {
+	width: 900px;
+	height: 187px;
+	margin: 100px auto 0px;
+	background: #FFFFFF;	
+}
+
+
+
+#headerSmall {
+    width: 100%;
+    margin: 0px auto 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #666;
+    overflow: auto;
+}
+
+
+div#logoSmall {
+    width: 25%;
+    float: left;
+    height: 100px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+input#j_idt7 {
+    box-sizing: border-box;
+    margin-top: 25px;
+    height: 45px;
+}
+
+button#Search {
+    margin-top: 25px;
+}
+button#SearchButton {
+    margin-top: 25px;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    margin-top: 25px;
+}
+
+
+.searchText{
+	    font-weight: normal;
+    	height: 35px;
+    	box-shadow: 2px 2px 5px #ccc;
+    	width: 700px;
+}
+
+.searchTextResults{
+	    font-weight: normal;
+    	height: 35px;
+    	box-shadow: 2px 2px 5px #ccc;
+    	width: 700px;
+    	margin-top: 25px
+}
+
+
+#logo{
+	width : 400px;	
+	height: 130px;
+	padding: 0px 0px 100px 124px;
+}
+
+#logo h2{	
+	float: left;
+	width : 400px;	
+	height: 40px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	font-family: cursive;
+	font-weight: normal;	
+}
+
+#welcome p {	
+	float: right;	
+	padding: 20px 30px 0px 0px;
+	font-size: 16px;
+	margin: 0 auto;		
+	font-family: cursive;
+	position: fixed;
+	top: 100px;
+	left:850px;
+}
+	
+
+#menu {
+	float: right;
+	width: 500px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 45px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 15px 15px 15px;	
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #E66C2C;
+	border: none;
+}
+
+#menu a:hover{
+	text-decoration: none;
+}
+
+#pageName p{	
+	float: right;	
+	padding: 20px 30px 0px 0px;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+
+#page {
+	width: 900px;
+	margin: 0 auto;	
+	padding: 0px 55px;
+	background: #FFFFFF;
+	border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 150px auto 0px;
+}
+
+#pageResults {
+	width: 86%;
+	margin: 0 auto;	
+	padding: 0px 55px;
+	background: #FFFFFF;
+	border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 50px auto 0px;
+}
+
+
+
+#content {	
+	padding: 50px 0px 50px 0px;
+	border-top: 1px solid #E3E3E3;
+	border-bottom: 1px solid #E3E3E3;	
+}
+
+.links{	
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #E66C2C;
+	position: fixed;
+	left:250px;
+}
+
+#footer{
+	padding: 50px 0px 50px 0px;
+	text-align: center;
+	font-size: 12px;	
+}
+
+.button{
+ 	margin-right:10px;
+ 	padding:10px;
+}
+.radioButtons{
+	border-color: #FFF;
+}
+
+.ui-panelgrid .ui-panelgrid-cell{
+	border-color: #FFF;
+}
+
+#div2 {
+    white-space: nowrap; 
+    width: 16em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

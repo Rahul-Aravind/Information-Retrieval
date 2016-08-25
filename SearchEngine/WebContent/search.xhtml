@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+<h:head>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Paintings Search</title>
+</h:head>
+<h:body styleClass="body">
+	<div id="page">
+		<div id="header">
+			<div id="logo">
+				<img alt="logo" src="logo.JPG"> </img>
+			</div>
+		</div>
+		<h:outputText value="&lt;br/&gt;" escape="false" />
+		<h:outputText value="&lt;br/&gt;" escape="false" />
+		<h:outputText value="&lt;br/&gt;" escape="false" />
+
+		<h:form>
+
+			<p:panelGrid columns="2">
+				<p:inputText styleClass="searchText" maxlength="600"
+					value="#{searchMB.searchQuery}"></p:inputText>
+				<p:commandButton styleClass="button" id="SearchButton" value="Search"
+					action="#{searchMB.performSearch}"></p:commandButton>
+			</p:panelGrid>
+			<p:outputLabel value="&lt;br/&gt;" escape="false" />
+
+
+			<p:outputLabel value="&lt;br/&gt;" escape="false" />
+			<h:messages></h:messages>
+
+
+		</h:form>
+		<div id="footer">&copy;2016 PaintSearch Corporation</div>
+	</div>
+</h:body>
+</html>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSF 2.2 (Mojarra 2.2.0)">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.jsf"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-analysis-extras-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-cell-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-clustering-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-core-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-dataimporthandler-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-dataimporthandler-extras-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-langid-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-map-reduce-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-morphlines-cell-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-morphlines-core-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-solrj-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-test-framework-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-uima-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solr-velocity-4.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/apache-nutch-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-math-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/commons-net-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/crawler-commons-0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/guava-11.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/hadoop-core-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/httpclient-4.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/httpcore-4.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/icu4j-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jackson-core-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jackson-jaxrs-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jackson-mapper-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jackson-xc-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jasper-compiler-5.5.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jasper-runtime-5.5.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jaxb-api-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jaxb-impl-2.2.3-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jersey-core-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jersey-json-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jersey-server-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jsp-2.1-6.1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jsp-api-2.1-6.1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/patch-hadoop_7682-1.0.x-win.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/servlet-api-2.5-6.1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/tika-core-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/xmlenc-0.52.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/apache-nutch-1.9/lib/xmlParserAPIs-2.6.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/solr-4.10.4/solr-4.10.4/dist/solrj-lib/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/ejml-0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/ejml-0.23-src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/javax.json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/javax.json-api-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/joda-time.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/joda-time-2.9-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/jollyday.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/jollyday-0.4.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/protobuf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/slf4j-simple.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0-models.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/xom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/stanford-corenlp-full-2015-12-09/stanford-corenlp-full-2015-12-09/xom-1.2.10-src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Downloads/jung2-2_0_1/jung2-2_0_1/wstx-asl-3.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/gson-2.2.2.jar/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RahulAravind/Desktop/Books/Spring 16/Information Retrieval/Project/java-json.jar/java-json.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
